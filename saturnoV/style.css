@@ -1,0 +1,132 @@
+      @font-face {
+          font-family: PantonRustHeavy;
+          src: url(WEB/PantonRustHeavy-GrSh.otf);
+          src: url(WEB/PantonRustHeavy-GrSh.otf);
+          ;
+      }
+
+      :root {
+          --cor1: #277FF2;
+          --cor2: #1F64BF;
+          --cor3: #123C73;
+          --cor4: #F2E8D5;
+          --cor5: #0D0D0D;
+          /*fonts*/
+      }
+
+      * {
+          padding: 0%;
+          margin: 0%;
+      }
+
+      nav {
+          text-align: center;
+      }
+
+      header>h1 {
+          min-width: 350px;
+          max-width: 13cm;
+          margin: auto;
+          font-size: 58px;
+          text-align: center;
+          background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
+          text-shadow: 1px 3px 0px #fdfdfd;
+          box-shadow: inset 0px 0px 0px 3px rgb(43 43 43);
+          font-family: PantonRustHeavy;
+      }
+
+      header {
+          text-align: center;
+      }
+
+      body {
+          background-color: var(--cor3);
+      }
+
+      nav>p>a {
+          text-decoration: none;
+          color: var(--cor5);
+      }
+
+      nav>p>a:hover {
+          background-color: red;
+      }
+
+      h3 {
+          font-size: 1.8em;
+      }
+
+      main {
+          max-width: 70vw;
+          min-width: 340px;
+          background-color: var(--cor4);
+          margin: auto;
+      }
+
+      main>p {
+          text-align: center;
+          text-indent: 40px;
+          line-height: 1.6em;
+          font-size: 1.1em;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      img#im {
+          max-width: 293px;
+          min-width: 150px;
+          max-height: 230px;
+          min-height: 120px;
+          border-radius: 10%;
+          box-shadow: 0px 1px 0px 4px #0d0d0d;
+      }
+
+      div.image {
+
+          display: inline-block;
+          padding: 15px 1px 1px;
+          margin-right: 6vh;
+      }
+
+
+      footer {
+          text-align: center;
+          background-color: var(--cor1);
+          color: bisque;
+          font-size: 0.8em;
+          padding: 5px;
+
+      }
+
+      footer>p {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 2.7vh;
+      }
+
+      footer>p>a {
+
+          color: #c4bfbf;
+          text-decoration: none;
+      }
+
+      footer>p>a:hover {
+          background-color: red;
+      }
+
+
+
+      div.video {
+          padding: 20px;
+          margin: 0px -20px 30px -20px;
+          position: relative;
+          padding-bottom: 50%;
+          padding-top: 8%;
+      }
+
+      div.video>iframe {
+          position: absolute;
+          top: 5%;
+          left: 6%;
+          width: 90%;
+          height: 90%;
+
+      }

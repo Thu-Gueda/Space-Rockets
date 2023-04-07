@@ -1,0 +1,201 @@
+@font-face {
+    font-family: pay;
+    src: url(PaybAck.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%
+}
+
+main>p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header {
+    background-color: #e7ad65;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #49d4d4;
+    font-family: pay;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+}
+
+.text {
+    font-size: 25px;
+    color: #1d1c22;
+    text-align: center;
+
+
+}
+
+.m1,
+menu {
+    display: none;
+    transition-duration: 1s;
+}
+
+.menu {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    border: solid 1px blue;
+}
+
+.menu:hover {
+    color: blue;
+}
+
+menu>nav>a:hover {
+    background-color: white;
+    color: red;
+}
+
+menu>nav>a {
+    display: inline-table;
+    width: 150px;
+    text-decoration: none;
+    background-color: rgba(59, 59, 59, 0.582);
+    text-align: center;
+    border: 1px solid blue;
+    color: chartreuse;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+img {
+    border-radius: 55px;
+}
+
+.spacex:hover {
+    background-color: white;
+}
+
+.iframe {
+    width: 483px;
+    height: 443px;
+
+
+}
+
+
+div.video {
+    height: 301px;
+    position: relative;
+    margin-left: -23px;
+    margin-right: -13px;
+    margin-bottom: 29px;
+    padding-bottom: 43%;
+}
+
+
+
+
+
+div.video>.iframe {
+
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    height: 506px;
+    top: 39%;
+    left: 31.9%;
+    margin-top: -150px;
+    margin-left: -187px;
+    padding-bottom: 0%;
+
+}
+
+/*IMAGEMS */
+.imagem6 {
+    transition: all .5s;
+    border: 10px solid #eeeeee00;
+}
+
+.imagem6:hover {
+    border: 10px solid #000000d0;
+    border-radius: 20%;
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.8);
+}
+
+.spacex {
+    background-color: #1d1c22;
+    color: black;
+    border-radius: 10000000px;
+    width: 34%;
+    box-shadow: 1px 1px 1px 6px #0091f1a6;
+
+
+}
+
+/*PC*/
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: rgb(29, 27, 27);
+        height: 50cm;
+        padding: auto;
+        margin: auto;
+    }
+
+    main {
+        max-width: 1000px;
+        min-width: 340px;
+        background-color: #a0a09e;
+        border-radius: 10px;
+        height: auto;
+        padding: auto;
+        margin: auto;
+        box-shadow: 1px 1px 1px 1px #3d7ddba6;
+    }
+
+    header {
+        max-width: 800px;
+        min-width: 340px;
+        background-color: #F2C48D;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 19vw;
+    }
+
+
+    h1 {
+        text-align: center;
+        font-size: 55px;
+
+    }
+
+    .menu {
+        position: absolute;
+        text-align: center;
+        left: 18vw;
+    }
+
+    menu>nav>a {
+        position: relative;
+        left: 25vw;
+        display: inline-table;
+        width: 250px;
+        text-decoration: none;
+        text-align: center;
+        padding: 15px;
+        margin-left: 50px;
+
+    }
+
+    div.video {
+        right: 12%;
+    }
+
+}
