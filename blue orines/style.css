@@ -7,13 +7,14 @@
 :root {
     --cor1: #1926E0;
     --cor2: #3E0FF7;
-    --cor3: #780EED;
+--cor3: #780EED;
     --cor4: #0F5CF7;
     --cor5: #0E92ED;
 
     --font-padrão: 'Montserrat', sans-serif;
 
 }
+
 
 
 
@@ -47,7 +48,7 @@ header {
 h2,
 h1 {
     padding: 0%;
-    margin-top: 1%;
+    margin-top: -1.75%;
 }
 
 main>p {
@@ -79,10 +80,20 @@ menu {
     color: blue;
 }
 
+div.bottom {
+    margin: -11px 154px -10px;
+    top: 21px;
+    position: fixed;
+    padding: 0%;
+}
+
 menu>nav>a:hover {
     background-color: white;
     color: red;
 }
+
+
+
 
 menu>nav>a {
     display: inline-table;
@@ -92,8 +103,10 @@ menu>nav>a {
     text-align: center;
     border: 1px solid blue;
     color: chartreuse;
-    padding: 15px;
-    margin-left: 50px;
+    padding: 10px;
+    left: 10cm;
+    margin: -12px 39px -1px;
+    position: relative;
 }
 
 
@@ -106,8 +119,7 @@ main {
     height: auto;
     padding: 0%;
     margin: auto;
-
-
+    margin-top: 2%;
     border-radius: 15px;
     box-shadow: 1px 1px 1px 1px #3d7ddba6;
     max-width: 100%
@@ -215,7 +227,6 @@ p {
 body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    overflow: auto;
     background: linear-gradient(315deg, var(--cor1) 3%, var(--cor2) 38%, var(--cor4) 40%, var(--cor5) 98%);
     animation: gradient 7s ease infinite;
     background-size: 400% 400%;
